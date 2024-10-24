@@ -3,3 +3,5 @@ string = open('text.txt','r',encoding="utf-8").read() # считывание т�
 string = string.split() # разделение строки на список слов
 
 print("Количество слов:",len(string))
+
+string.close()
